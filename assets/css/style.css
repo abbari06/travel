@@ -333,8 +333,10 @@ html,body{
 	margin-top: -11px;
 }
 .about-btn {
-    margin-top: 39px;
+    margin-top: 8px;
     letter-spacing: 1.2px;
+    justify-content: center;
+    display: flex;
      -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
@@ -914,10 +916,14 @@ html,body{
     color: #aaa;
     font-family: 'Poppins', sans-serif;
     margin-bottom:15px;
+    text-align: center;
 }
 .packages-para p span{
     display: inline-block;
     width: 150px;
+}
+.packages-review{
+    text-align: center;
 }
 .packages-review p i{
     color: #ffdf00;
