@@ -106,7 +106,10 @@
 	.single-service-box {flex-direction: column;height: auto;}
 	.service-content {margin: 0 auto; margin-top: 30px;}
 
-	.single-package-item {max-width: 450px;margin: 0 auto;margin-bottom: 30px;}
+	.single-package-item {margin: 0 auto;margin-bottom: 30px;}
+	.gallery-details {
+		margin-bottom: 0px;
+	}
 
 	.single-special-offer {margin-bottom: 30px;}
 
@@ -124,7 +127,16 @@
 
 
 @media screen and (max-width: 660px){
-
+	.blog {
+		background: #fff;
+		padding: 0px 0 0px;
+	}
+	.about-view{
+		height: 40px;
+	}
+	.packages {
+		padding: 57px 0 55px;
+	}
 	.home1-testm-single {max-width: 350px;margin: 0 auto;}
 	.main-menu .nav li a {font-size: 14px;}
 
@@ -133,7 +145,9 @@
 
 
 @media screen and (max-width: 640px){
-	
+	.packages {
+		padding: 57px 0 55px;
+	}
 	.desc-tabs .nav-tabs>li>a { padding: 17px 10px 17px 10px;}
 
 	.blog-head h2 {font-size: 18px;}
@@ -143,8 +157,10 @@
 
 
 @media screen and (max-width: 540px){
-
-	.filtr-item {max-width: 350px;margin: 0 auto;}
+	.packages {
+		padding: 57px 0 55px;
+	}
+	.filtr-item {margin: 0 auto;}
 
 	.subscribe-title h2 {font-size: 28px;}
 
@@ -156,7 +172,7 @@
 
 	.time-after:after{display: none;}
 
-	.single-package-item {max-width: 350px;margin: 0 auto;margin-bottom: 30px;}
+	.single-package-item {margin: 0 auto;margin-bottom: 30px;}
 
 	.single-special-shape-txt {left: 30px;}
 
@@ -167,18 +183,19 @@
 @media screen and (max-width: 440px){
 	.desc-tabs .nav-tabs>li>a,.desc-tabs .nav-tabs>li.active>a { padding: 17px 10px 17px 10px;font-size:12px; margin: 5px;}
 	.nav-tabs {border-bottom: 0;}
-
+	.packages {
+		padding: 57px 0 55px;
+	}
 	.single-trip-circle:nth-child(2){margin-left: 0px;}
 	.trip-circle {flex-direction: column;}
 	.about-view.travel-btn {width: 150px;}
 	
-	.filtr-item {max-width: 250px;}
 
 	.home1-testm-txt p {font-size:14px;max-width:180px;}
 
 	.dicount-offer-content h2 {font-size: 24px;}
 
-	.single-package-item {max-width: 250px;margin: 0 auto;margin-bottom: 30px;}
+	.single-package-item {margin: 0 auto;margin-bottom: 30px;}
 
 	.about-view.packages-btn.offfer-btn { margin-right: 10px;}
 
@@ -191,7 +208,9 @@
 
 
 @media screen and (max-width:350px){
-	
+	.packages {
+		padding: 57px 0 55px;
+	}
 	.travel-select-icon select, .travel-check-icon input {font-size: 10px;}
 	.travel-check-icon:after{ padding: 10px 5px;}
 
@@ -202,6 +221,9 @@
 }/*max-width:350px*/
 
 @media screen and  (max-width: 320px){
+	.packages {
+		padding: 57px 0 55px;
+	}
 	.dicount-offer-content h2 {font-size: 16px;}
 
 }/*max-width:320px*/
