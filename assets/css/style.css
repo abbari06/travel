@@ -370,6 +370,7 @@ html,body{
     box-shadow: 0 5px 20px rgba(14,15,18,.7);
 	border: 1px solid #00d8d5;
 }
+
 .travel-mrt-0{
     margin-top: 0px;
 }
@@ -693,6 +694,11 @@ html,body{
 }
 .gallery-content {
     margin-top:62px;
+    
+       
+        display: flex;
+        justify-content: center;
+    
 }
 
 /* gallary-header  */
